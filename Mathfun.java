@@ -21,7 +21,7 @@ public class Mathfun {
         System.out.print("Enter a number to find its absolute value: ");
         double negativeNumber = scanner.nextDouble();
         double absoluteValue = Math.abs(negativeNumber);
-        System.out.println("Absolute value of " + negativeNumber + " is " + absoluteValue);
+        System.out.println("Absolute value of " + negativenumber + " is " + absolutevalue);
 
        
         System.out.print("Enter a decimal number to find its ceiling: ");
@@ -31,7 +31,7 @@ public class Mathfun {
 
         System.out.println("Generating a random number between 1 and 100");
         int scaledRandom = (int) (Math.random() * 100) + 1;
-        System.out.println("Random number between 1 and 100 is " + scaledRandom);
+        System.out.println("Random number between 1 and 100 is " + random);
 
         
         System.out.print("Enter the first side of the triangle: ");
